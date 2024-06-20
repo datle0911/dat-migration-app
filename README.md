@@ -74,8 +74,8 @@ Complete a month cost analysis of each Azure resource to give an estimated total
 
 ## Architecture Explanation  
 
-Migrating the existing web application to Azure App Service addresses scaling constraints and enhances operational cost efficiency.
+Migrating the existing web application to Azure App Service addresses scaling constraints and enhances operational cost efficiency. The migration plan appears well-thought-out in terms of addressing the major operational pain points. By leveraging Azure’s managed services, the organization can reduce the complexity and workload associated with maintaining their own infrastructure.
 
-Migrating PostgreSQL to scalable Azure database services enables developers to concentrate on database structures and operations without worrying about security or update patches. The estimated monthly cost of $16.09 on the Basic tier and 1 vCore only is justified by the significant cost savings achieved. In practice, costs may be slightly higher due to additional bandwidth fees for outbound data transfering.
+Migrating PostgreSQL to scalable Azure database services enables developers to concentrate on database structures and operations without worrying about security or update patches. The estimated monthly cost of $16.09 on the Basic tier and 1 vCore only is justified by the significant cost savings achieved. In practice, costs may be slightly higher due to additional bandwidth fees for outbound data transfering. However, the overall efficiency gains and reduced maintenance overhead are likely to outweigh these.
 
-_**Conclusion**_: The cost analysis indicates that the migration will alleviate operational challenges and eliminate cost inefficiencies.   
+_**Conclusion**_: The cost analysis indicates that the migration will alleviate operational challenges and eliminate cost inefficiencies. The migration to Azure services is a strategic move aimed at enhancing scalability, reducing operational burdens, and improving cost efficiency. It is crucial, however, to closely monitor actual costs post-migration to ensure they align with the projected savings. 
