@@ -74,7 +74,9 @@ Complete a month cost analysis of each Azure resource to give an estimated total
 
 ## Architecture Explanation  
 
-Migrating the existing web application to Azure App Service addresses scaling constraints and enhances operational cost efficiency. The migration plan appears well-thought-out in terms of addressing the major operational pain points. By leveraging Azure’s managed services, the organization can reduce the complexity and workload associated with maintaining their own infrastructure.
+Migrating the existing web application to Azure App Service addresses scaling constraints and enhances operational cost efficiency. 
+
+The azure web app was already built out, I only had to change the environment variables within config.py and refactor the notification flow within app.py. The rest had already been set up. With the exception of the PostgreSQL database, being by far the most expensive component of the design, the prices are fair. While handling the alerts through a service bus namespace is a smart idea, the easiest approach to cut expenses would be to save all of the data in a less expensive database.
 
 Migrating PostgreSQL to scalable Azure database services enables developers to concentrate on database structures and operations without worrying about security or update patches. The estimated monthly cost of $16.09 on the Basic tier and 1 vCore only is justified by the significant cost savings achieved. In practice, costs may be slightly higher due to additional bandwidth fees for outbound data transfering. However, the overall efficiency gains and reduced maintenance overhead are likely to outweigh these.
 
